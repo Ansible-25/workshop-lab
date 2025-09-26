@@ -5,6 +5,6 @@
   vars_files:
    - "group_vars/all.yml"
   tasks:
-    - name: "Debug test"
-      debug:
-        msg: "testing" 
+   - name: "Debug test"
+     debug:
+       msg: "testing" 
