@@ -4,6 +4,7 @@
   gather_facts: false
   vars_files:
    - "group_vars/all.yml"
-  roles:
-   - workshop-playbook
-   
+  tasks:
+    - name: "Debug test"
+      debug:
+        msg: "testing" 
