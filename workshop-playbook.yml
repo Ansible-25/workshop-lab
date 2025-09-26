@@ -3,8 +3,8 @@
   host: cisco
   gather_facts: false
   vars_files:
-    - "group_vars/all.yml"
+  - "group_vars/all.yml"
   tasks:
-    - name: "Debug test"
-      debug:
-        msg: "testing" 
+  - name: "Debug test"
+    debug:
+      msg: "testing" 
